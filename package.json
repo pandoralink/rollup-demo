@@ -4,12 +4,21 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "serve": "serve public"
+    "serve": "serve public",
+    "build": "rollup -c"
   },
   "author": "poplink",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "browserify": "^17.0.0",
     "rollup": "^3.9.0",
     "serve": "^14.1.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "lodash": "^4.17.21",
+    "the-answer": "^1.0.0"
   }
 }

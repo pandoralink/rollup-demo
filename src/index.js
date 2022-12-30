@@ -1,3 +1,3 @@
-import { square } from "./utils/math";
+import _ from "lodash";
 
-console.log(square(2));
+console.log(_.concat([1, 2, 3], 4, [5]));
